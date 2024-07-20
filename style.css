@@ -26,12 +26,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   height: 100vh;
 }
 
 .card-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   color: var(--neutral-color-white);
   background-color: var(--neutral-color-dark-grey);
   display: flex;
@@ -41,12 +41,13 @@ body {
 }
 
 .user-info-container {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 40px;
+  padding-bottom: 12px;
 }
 
 .profile-picture {
@@ -73,32 +74,50 @@ body {
 }
 
 .links-container {
-  border: 2px solid green;
-  list-style-type: none;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding: 40px;
+  padding-top: 12px;
 }
 
-.links-container li {
-  border: 1px solid pink;
+.links-container button {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 12px;
-  color: var(--neutral-color-white);
   cursor: pointer;
-}
-
-.links-container li:hover {
-  background-color: var(--primary-color-green);
-  color: var(--neutral-color-grey) !important;
+  background-color: var(--neutral-color-grey);
+  border: none;
+  border-radius: 8px;
 }
 
 .links-container a {
   width: 100%;
-  border: 1px solid orange;
   text-decoration: none;
   font-weight: 700;
+  padding: 12px;
+  color: var(--neutral-color-white);
+}
 
+.links-container a:hover {
+  background-color: var(--primary-color-green);
+  color: var(--neutral-color-grey) !important;
+  border-radius: 8px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  color: var(--neutral-color-white);
+  background-color: var(--neutral-color-grey);
+}
+
+footer a {
+  text-decoration: none;
+  color: green;
 }
