@@ -9,5 +9,13 @@
 
 :root {
   /* colors */
-  /* font  */
+  --primary-color-green: hsl(75, 94%, 57%);
+  --neutral-color-white: hsl(0, 0%, 100%);
+  --neutral-color-grey: hsl(0, 0%, 20%);
+  --neutral-color-dark-grey: hsl(0, 0%, 12%);
+  --neutral-color-off-black: hsl(0, 0%, 8%);
+}
+
+html {
+  font-size: 14px;
 }
