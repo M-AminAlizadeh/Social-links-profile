@@ -26,12 +26,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid green; */
   height: 100vh;
 }
 
 .card-container {
-  /* border: 1px solid red; */
   color: var(--neutral-color-white);
   background-color: var(--neutral-color-dark-grey);
   display: flex;
@@ -41,7 +39,6 @@ body {
 }
 
 .user-info-container {
-  /* border: 1px solid yellow; */
   display: flex;
   flex-direction: column;
   justify-content: center;
