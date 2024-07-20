@@ -21,9 +21,11 @@ Users should be able to:
 ### Screenshot
 
 Desktop
+
 ![Desktop design](/design/destkop-design.jpg)
 
 Mobile
+
 ![Mobile design](/design/mobile-design.jpg)
 
 ### Live-Demo
@@ -50,7 +52,7 @@ Mobile
 
 ## Author
 
-- [GitHub](https://www.your-site.com)
-- [X](https://twitter.com/Mamin_alizadeh)
+- [GitHub](https://github.com/M-AminAlizadeh)
+- [X](https://x.com/amin_alizadeh__)
 - [LinkedIn](https://www.linkedin.com/in/m-amin-alizadeh/)
 - [Frontend Mentor Profile](https://www.frontendmentor.io/profile/M-AminAlizadeh)
