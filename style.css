@@ -78,12 +78,13 @@ body {
   padding-top: 12px;
 }
 
-.links-container button {
+.links-container div {
   display: flex;
   cursor: pointer;
   background-color: var(--neutral-color-grey);
   border: none;
   border-radius: 8px;
+  text-align: center;
 }
 
 .links-container a {
