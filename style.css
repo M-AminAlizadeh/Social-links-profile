@@ -19,3 +19,86 @@
 html {
   font-size: 14px;
 }
+
+body {
+  background-color: var(--neutral-color-off-black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  height: 100vh;
+}
+
+.card-container {
+  border: 1px solid red;
+  color: var(--neutral-color-white);
+  background-color: var(--neutral-color-dark-grey);
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+
+}
+
+.user-info-container {
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.profile-picture {
+  border-radius: 100px;
+  width: 88px;
+  height: 88px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+
+.location {
+  color: var(--primary-color-green);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.bio {
+  font-weight: 400;
+}
+
+.links-container {
+  border: 2px solid green;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.links-container li {
+  border: 1px solid pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  color: var(--neutral-color-white);
+  cursor: pointer;
+}
+
+.links-container li:hover {
+  background-color: var(--primary-color-green);
+  color: var(--neutral-color-grey) !important;
+}
+
+.links-container a {
+  width: 100%;
+  border: 1px solid orange;
+  text-decoration: none;
+  font-weight: 700;
+
+}
