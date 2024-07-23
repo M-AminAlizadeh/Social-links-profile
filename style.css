@@ -117,5 +117,9 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: green;
+  color: var(--primary-color-green);
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
