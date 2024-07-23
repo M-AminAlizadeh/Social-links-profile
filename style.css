@@ -29,6 +29,7 @@ body {
   height: 100vh;
 }
 
+/* Card styling */
 .card-container {
   color: var(--neutral-color-white);
   background-color: var(--neutral-color-dark-grey);
@@ -71,14 +72,15 @@ body {
 }
 
 .links-container {
+  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 40px;
+  padding: 30px;
   padding-top: 12px;
 }
 
-.links-container div {
+.links-container li {
   display: flex;
   cursor: pointer;
   background-color: var(--neutral-color-grey);
@@ -99,8 +101,10 @@ body {
   background-color: var(--primary-color-green);
   color: var(--neutral-color-grey) !important;
   border-radius: 8px;
+  transition: background-color .6s ease-in-out;
 }
 
+/* Footer styling */
 footer {
   position: absolute;
   bottom: 0;
